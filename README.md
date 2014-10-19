@@ -1,2 +1,2 @@
-taskpaper-go
-============
+Taskpaper Go!
+=============
