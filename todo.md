@@ -1,6 +1,7 @@
 Next
 ====
 [ ] Cloud Front
+[ ] Domain Setup
 [ ] Release
 
 To-Do
