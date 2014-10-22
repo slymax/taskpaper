@@ -1,0 +1,56 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	background-color: #f9f9f9;
+}
+header.primary hgroup {
+	background-color: #dadada;
+	padding: 10px 20px 15px;
+}
+.selected {
+	background-color: #323232;
+}
+ul {
+	margin: 0;
+}
+div.taskDiv {
+	overflow: auto;
+}
+li.tptask:before {
+	display: inline-block;
+    content: "⎯";
+    width: 1em;
+    margin-left: -3em;
+}
+li.tptask {
+    list-style: none;
+    margin-left: -10px;
+}
+li.tpnote {
+	list-style: none;
+	margin-left: -95px;
+	color: #a6a6a6;
+	padding-left: 0.8em;
+}
+li.tpproject {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+}
+ul li.tpproject{
+	font-size: 1.25em;
+	margin-left: -40px;
+}
+ul ul li.tpproject{
+	font-size: 1em;
+	margin-left: -50px;
+}
+li.tptag-done {
+	text-decoration: line-through;
+}
+span.tptag {
+	color: #a6a6a6;
+	text-decoration: none;
+	margin-left: 5px;
+	display: inline-block;
+}
