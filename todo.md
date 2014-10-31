@@ -1,5 +1,7 @@
 To-Do
 =====
+- Fix Notes
+- Android App
 - Error Handling
 - Markdown & Plain Text
 - Empty Folders
@@ -10,4 +12,3 @@ To-Do
 - Pull 2 Refresh
 - Detect Hyperlinks
 - Count Tasks
-- Mobile Apps
