@@ -1,7 +1,9 @@
 To-Do
 =====
-- Fix Notes
-- Android App
+- Fix Notes (!)
+- Loading Indicator (!)
+- GitHub Pages (!)
+- Android App (!)
 - Error Handling
 - Markdown & Plain Text
 - Empty Folders
