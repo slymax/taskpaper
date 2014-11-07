@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var client = new Dropbox.Client({ key: "" });
+  var client = new Dropbox.Client({ key: "xl9k48bu88uvp10" });
   client.authenticate({interactive: false}, function(error, client) {
     if (error) {
       return handleError(error);

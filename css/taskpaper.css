@@ -14,7 +14,7 @@ ul {
 	margin: 0;
 }
 div.taskDiv {
-	overflow: auto;
+	overflow: hidden;
 }
 li.tptask:before {
 	display: inline-block;
@@ -26,11 +26,21 @@ li.tptask {
     list-style: none;
     margin-left: -10px;
 }
+ul.tptop > li.tptask {
+    list-style: none;
+    margin-left: 15px;
+}
 li.tpnote {
 	list-style: none;
 	margin-left: -95px;
 	color: #a6a6a6;
 	padding-left: 0.8em;
+}
+ul.tptop > li.tpnote {
+	margin-left: -46px;
+}
+ul.tptop > ul > li.tpnote {
+	margin-left: -72px;
 }
 li.tpproject {
 	list-style: none;
