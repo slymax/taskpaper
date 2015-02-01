@@ -31,11 +31,11 @@ p {
   text-decoration: none;
   margin: 25px 0 15px 0;
   font-size: 125%;
-  cursor: pointer;
 }
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #fff;
+  cursor: pointer;
   color: #000;
 }
 @media(min-device-width: 480px){
