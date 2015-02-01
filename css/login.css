@@ -1,9 +1,11 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
-}
-h1 {
-    color: #147be4;
+    background-size: cover;
+    background-image: url('../background.jpg');
+    height: 100vh;
+    margin: 0;
+    color: white;
 }
 p {
     text-align: justify;
@@ -17,22 +19,39 @@ p {
     right: 0;
     margin: auto;
 }
+.ghost-button {
+  display: inline-block;
+  width: 250px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  margin: 25px 0 15px 0;
+  font-size: 125%;
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  color: #000;
+}
 @media(min-device-width: 480px){
     .landing {
-        top:-25%;
+        top:-15%;
         width: 520px;
         font-size: 1.25em;
     }
 }
 @media(max-device-width: 479px){
     .landing {
-        top:-55%;
-        width: 80%;
+        top:-45%;
+        width: 75%;
         font-size: 2.5em;
     }
-}
-#login-button {
-    margin: 15px 0 15px 0;
-    font-size: 150%;
-    font-weight: bold;
+    .ghost-button {
+        width: 80%;
+        padding: 25px;
+    }
 }
