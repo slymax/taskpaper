@@ -1,24 +1,24 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
-    background-size: cover;
-    background-image: url('../background.jpg');
-    height: 100vh;
-    margin: 0;
-    color: white;
+  background-color: #4d4d4d;
+  color: white;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 p {
-    text-align: justify;
+  text-align: justify;
 }
 .landing {
-    height: 400px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  height: 400px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .ghost-button {
   display: inline-block;
@@ -40,20 +40,23 @@ p {
   color: #000;
 }
 @media(min-device-width: 480px){
-    .landing {
-        top:-15%;
-        width: 520px;
-        font-size: 1.25em;
-    }
+  .landing {
+    top:-15%;
+    width: 520px;
+    font-size: 1.25em;
+  }
 }
 @media(max-device-width: 479px){
-    .landing {
-        top:-45%;
-        width: 75%;
-        font-size: 2.5em;
-    }
-    .ghost-button {
-        width: 80%;
-        padding: 25px;
-    }
+  .landing {
+    top:-60%;
+    width: 75%;
+    font-size: 2.5em;
+  }
+  .ghost-button {
+    width: 80%;
+    padding: 25px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
 }
