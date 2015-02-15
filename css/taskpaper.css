@@ -18,9 +18,9 @@ div.taskDiv {
 }
 li.tptask:before {
 	display: inline-block;
-    content: "\u2013";
+    content: "–";
     width: 1em;
-    margin-left: -3em;
+    margin-left: -1.4em;
 }
 li.tptask {
     list-style: none;
@@ -34,7 +34,7 @@ li.tpnote {
 	list-style: none;
 	margin-left: -95px;
 	color: #a6a6a6;
-	padding-left: 0.8em;
+	padding-left: 1.2em;
 }
 ul.tptop > li.tpnote {
 	margin-left: -46px;
