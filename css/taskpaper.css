@@ -18,7 +18,7 @@ div.taskDiv {
 }
 li.tptask:before {
 	display: inline-block;
-    content: "–";
+    content: "-";
     width: 1em;
     margin-left: -1.4em;
 }
