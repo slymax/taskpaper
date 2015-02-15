@@ -1,5 +1,5 @@
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	background-color: #f9f9f9;
 }
@@ -18,7 +18,7 @@ div.taskDiv {
 }
 li.tptask:before {
 	display: inline-block;
-    content: "-";
+    content: "–";
     width: 1em;
     margin-left: -1.4em;
 }
