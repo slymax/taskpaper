@@ -18,7 +18,7 @@ div.taskDiv {
 }
 li.tptask:before {
 	display: inline-block;
-    content: "&ndash;";
+    content: "\u2013";
     width: 1em;
     margin-left: -3em;
 }
