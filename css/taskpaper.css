@@ -10,6 +10,22 @@ header.primary hgroup {
 .selected {
 	background-color: #323232;
 }
+.zero {
+	font-size: 4em;
+	font-weight: bold;
+	margin-left: 25px;
+	background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+.info {
+	margin-left: 28px;
+	font-weight: bold;
+	color: #838383;
+}
 ul {
 	margin: 0;
 }

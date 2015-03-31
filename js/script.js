@@ -15,6 +15,9 @@ $(document).ready(function(){
 	// Load Files
 	function get_files () {
 		client.readdir("/", function(error, entries) {
+			if (entries.length === 0) {
+				$('#scroller').after('<div class="zero">NO FILES FOUND</div><div class="info">Go ahead and drop some files into the Taskpaper folder inside your Dropbox.</div>');
+			};
 			if (error) {
 		    	return showError(error);
 		  	} else {
