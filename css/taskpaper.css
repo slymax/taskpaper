@@ -14,7 +14,7 @@ header.primary hgroup {
 	font-size: 4em;
 	font-weight: bold;
 	margin-left: 25px;
-	background-color: #666666;
+	background-color: #A7A7A7;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -24,7 +24,7 @@ header.primary hgroup {
 .info {
 	margin-left: 28px;
 	font-weight: bold;
-	color: #838383;
+	color: #B3B3B3;
 }
 ul {
 	margin: 0;
