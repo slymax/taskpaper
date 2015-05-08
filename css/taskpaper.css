@@ -1,6 +1,5 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #f9f9f9;
 }
 header.primary hgroup {
@@ -24,7 +23,7 @@ header.primary hgroup {
 .info {
 	margin-left: 28px;
 	font-weight: bold;
-	color: #A7A7A7;
+	color: #B9B9B9;
 }
 ul {
 	margin: 0;
