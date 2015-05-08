@@ -11,7 +11,7 @@ p {
   text-align: justify;
 }
 .landing {
-  height: 400px;
+  height: 425px;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -21,7 +21,7 @@ p {
 }
 .ghost-button {
   display: inline-block;
-  width: 250px;
+  width: 300px;
   padding: 8px;
   color: #fff;
   border: 1px solid #fff;
