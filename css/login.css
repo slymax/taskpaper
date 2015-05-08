@@ -11,7 +11,7 @@ p {
   text-align: justify;
 }
 .landing {
-  height: 450px;
+  height: 400px;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -41,7 +41,7 @@ p {
 @media(min-device-width: 480px){
   .landing {
     top:-15%;
-    width: 530px;
+    width: 550px;
     font-size: 1.25em;
   }
 }
