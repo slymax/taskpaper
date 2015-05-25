@@ -47,3 +47,4 @@ header.primary hgroup h1 { position: relative; left: 0; right: auto; font-size: 
 /*	Navigation
 =========================== */
 .navigation { max-width: 265px }
+.icon { cursor: pointer; }
