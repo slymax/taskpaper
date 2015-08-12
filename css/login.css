@@ -11,6 +11,11 @@ h1 {
 p {
   text-align: justify;
 }
+a {
+  color: white;
+  border-bottom: 1px dotted white;
+  text-decoration: none;
+}
 .landing {
   height: 400px;
   text-align: center;
