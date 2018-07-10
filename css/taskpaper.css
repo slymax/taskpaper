@@ -1,0 +1,78 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-color: #f9f9f9;
+}
+header.primary hgroup {
+	background-color: #dadada;
+	padding: 10px 20px 15px;
+}
+.selected {
+	background-color: #323232;
+}
+.zero {
+	margin: 25% 0 5px 0;
+	font-size: 1.8em;
+	text-align: center;
+	color: #B9B9B9;
+}
+.info {
+	font-size: 0.8em;
+	margin: 0 5%;
+	text-align: center;
+	color: #B9B9B9;
+}
+ul {
+	margin: 0;
+}
+div.taskDiv {
+	overflow: hidden;
+}
+li.tptask:before {
+	display: inline-block;
+    content: "–";
+    width: 1em;
+    margin-left: -2.6em;
+}
+li.tptask {
+    list-style: none;
+    margin-left: -10px;
+}
+ul.tptop > li.tptask {
+    list-style: none;
+    margin-left: 15px;
+}
+li.tpnote {
+	list-style: none;
+	margin-left: -95px;
+	color: #a6a6a6;
+	padding-left: 1.2em;
+}
+ul.tptop > li.tpnote {
+	margin-left: -46px;
+}
+ul.tptop > ul > li.tpnote {
+	margin-left: -72px;
+}
+li.tpproject {
+	list-style: none;
+	margin: 5px 0 5px 0;
+	font-weight: bold;
+}
+ul li.tpproject{
+	font-size: 1.25em;
+	margin-left: -40px;
+}
+ul ul li.tpproject{
+	font-size: 1em;
+	margin-left: -50px;
+}
+li.tptag-done {
+	text-decoration: line-through;
+}
+span.tptag {
+	color: #a6a6a6;
+	text-decoration: none;
+	margin-left: 5px;
+	display: inline-block;
+}
